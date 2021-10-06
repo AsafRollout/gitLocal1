@@ -8,4 +8,4 @@ conditions:
       - qwer
   - operator: ne
     property: rox.platform
-    operand: pppp
+    operand: qqqq
