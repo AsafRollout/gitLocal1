@@ -1,6 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-enabled: false
+enabled: true
 flag: def.newVariant
 availableValues:
   - C
@@ -8,3 +8,4 @@ availableValues:
 platforms:
   - name: Ruby
   - name: Ruby2
+value: C
