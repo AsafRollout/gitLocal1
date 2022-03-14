@@ -1,6 +1,7 @@
+# This file was edited by Cloudbees Feature Management
 type: experiment
-flag: kkk
-value: true
-enabled: false
 labels:
   - lbll
+enabled: false
+flag: kkk
+value: false
