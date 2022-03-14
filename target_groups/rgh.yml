@@ -3,4 +3,4 @@ name: rgh
 conditions:
   - operator: ne
     property: distinct_id
-    operand: '2345'
+    operand: '456'
