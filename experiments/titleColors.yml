@@ -1,9 +1,0 @@
-# This file was edited by Cloudbees Feature Management
-type: experiment
-enabled: false
-flag: titleColors
-availableValues:
-  - green
-  - blue
-  - red
-value: red

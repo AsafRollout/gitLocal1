@@ -1,8 +1,0 @@
-# This file was edited by Cloudbees Feature Management
-type: experiment
-enabled: false
-flag: DemoApp.numberSwitch
-availableValues:
-  - 123
-  - 32
-value: 123
