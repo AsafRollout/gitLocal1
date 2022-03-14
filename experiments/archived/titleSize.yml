@@ -1,0 +1,12 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+description: asd
+labels:
+  - lbl13334
+  - archived
+flag: titleSize
+availableValues:
+  - 18
+  - 14
+  - 12
+value: 14
