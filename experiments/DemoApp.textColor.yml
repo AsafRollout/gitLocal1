@@ -5,14 +5,6 @@ flag: DemoApp.textColor
 availableValues:
   - '123'
   - '141234'
-platforms:
-  - name: p3
-    conditions:
-      - dependency:
-          flag: DemoApp.number2
-          value: '32'
-        value: '1'
-    value: '5'
 conditions:
   - dependency:
       flag: DemoApp.colorsVariant
