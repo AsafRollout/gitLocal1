@@ -5,3 +5,5 @@ flag: titleColors
 availableValues:
   - green
   - blue
+  - red
+value: red
