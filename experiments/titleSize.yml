@@ -1,0 +1,15 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+description: asdaaaq
+labels:
+  - lbl13334
+flag: titleSize
+availableValues:
+  - 18
+  - 14
+  - 12
+conditions:
+  - group:
+      name: rgh
+    value: 12
+value: 14

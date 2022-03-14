@@ -1,11 +1,25 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-enabled: true
+enabled: false
 flag: def.newVariant
 availableValues:
   - C
   - B
+  - A
 platforms:
   - name: Ruby
   - name: Ruby2
-value: C
+conditions:
+  - version:
+      operator: semver-eq
+      semver: '3'
+    dependency:
+      flag: var
+      value: red
+    value:
+      - percentage: 33
+        option: C
+      - percentage: 33
+        option: B
+      - percentage: 34
+        option: A

@@ -1,4 +1,0 @@
-type: experiment
-enabled: true
-flag: ns2.sls
-value: false
