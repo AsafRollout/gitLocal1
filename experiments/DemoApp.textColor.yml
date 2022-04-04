@@ -2,6 +2,16 @@
 type: experiment
 enabled: false
 flag: DemoApp.textColor
-availableValues: []
+availableValues:
+  - '6654'
+  - y6u7
+  - '234'
+  - zxcv
 platforms:
   - name: NodeJS
+    conditions:
+      - value: '234'
+    value: zxcv
+conditions:
+  - value: '6654'
+value: y6u7
