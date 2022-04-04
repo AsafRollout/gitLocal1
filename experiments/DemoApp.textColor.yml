@@ -4,10 +4,21 @@ description: asdf
 flag: DemoApp.textColor
 availableValues:
   - '123'
-  - '141234'
+  - '41234'
+  - zzz
+  - qqq
+platforms:
+  - name: Ruby
+  - name: Ruby2
+    conditions:
+      - value: zzz
+    value: qqq
+  - name: PHP
+    conditions:
+      - value: ''
 conditions:
   - dependency:
       flag: DemoApp.colorsVariant
       value: green
     value: '123'
-value: '141234'
+value: '41234'
