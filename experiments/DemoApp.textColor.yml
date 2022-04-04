@@ -15,7 +15,7 @@ platforms:
     value: qqq
   - name: PHP
     conditions:
-      - value: ''
+      - value: zzz
 conditions:
   - dependency:
       flag: DemoApp.colorsVariant
