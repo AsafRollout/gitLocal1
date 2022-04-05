@@ -1,6 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-description: asdf
+description: asdfxzcasd
 flag: DemoApp.textColor
 availableValues:
   - '123'
@@ -20,5 +20,5 @@ conditions:
   - dependency:
       flag: DemoApp.colorsVariant
       value: green
-    value: '123'
-value: zzz
+    value: '41234'
+value: '41234'
