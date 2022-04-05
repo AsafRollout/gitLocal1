@@ -1,6 +1,6 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-description: desc
+description: 123a
 flag: DemoApp.textColor
 availableValues:
   - '123'
