@@ -4,4 +4,4 @@ operator: or
 conditions:
   - operator: ne
     property: rox.platform
-    operand: pppp32
+    operand: pppp321
