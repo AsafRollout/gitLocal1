@@ -8,6 +8,7 @@ availableValues:
   - red
 platforms:
   - name: p2
+  - value: green
 conditions:
   - dependency:
       flag: specialNumber
