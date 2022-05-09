@@ -1,10 +1,19 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
-description: asdasdfasdzxcvq
+description: qqq
 flag: sls
 platforms:
   - name: Ruby
     value: false
   - name: Ruby2
     value: false
-value: true
+conditions:
+  - version:
+      operator: semver-eq
+      semver: v1.1.1.1
+    value: false
+  - version:
+      operator: semver-eq
+      semver: v1.1.1.22
+    value: false
+value: false
