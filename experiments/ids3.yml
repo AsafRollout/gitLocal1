@@ -27,4 +27,4 @@ conditions:
         option: 4ab
       - percentage: 34
         option: '1234'
-value: zaz
+value: '1234'
