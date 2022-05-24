@@ -6,7 +6,11 @@ availableValues:
   - 4ab
   - '1234'
 conditions:
-  - property:
+  - group:
+      name:
+        - 'group1'
+        - 'tg12'
+    property:
       propertyConditions:
         - operator: in-array
           property: avav
