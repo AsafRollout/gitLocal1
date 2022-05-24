@@ -9,5 +9,4 @@ availableValues:
 platforms:
   - name: p2
 conditions:
-  - acrossTypesLogicGate: null
-    value: blue
+  - value: blue

@@ -2,8 +2,11 @@
 type: experiment
 flag: Flag1
 conditions:
-  property: 'bln'
-  operand: 'is-true'
+  - property:
+      propertyConditions:
+        - operator: is-true
+          property: bln
+    value: false
 value:
   - percentage: 50
     option: true

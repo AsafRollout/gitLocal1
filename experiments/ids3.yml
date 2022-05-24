@@ -20,7 +20,6 @@ conditions:
         - operator: is-true
           property: bln
       logicGate: or
-    acrossTypesLogicGate: null
     value:
       - percentage: 33
         option: zaz

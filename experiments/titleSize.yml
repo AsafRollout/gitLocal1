@@ -11,6 +11,5 @@ availableValues:
 conditions:
   - group:
       name: rgh
-    acrossTypesLogicGate: null
     value: 12
 value: 14

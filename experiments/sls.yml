@@ -11,11 +11,9 @@ conditions:
   - version:
       operator: semver-eq
       semver: v1.1.1.1
-    acrossTypesLogicGate: null
     value: false
   - version:
       operator: semver-eq
       semver: v1.1.1.22
-    acrossTypesLogicGate: null
     value: false
 value: false
