@@ -2,11 +2,10 @@
 type: experiment
 flag: Flag1
 conditions:
-  - property:
-      propertyConditions:
-        - operator: is-true
-          property: bln
-    value: false
+  property:
+    operator: is-true
+    name: bln
+  value: false
 value:
-  - percentage: 50
+  - percentage: 40
     option: true
