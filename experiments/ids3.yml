@@ -1,0 +1,25 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: ids3
+availableValues:
+  - zaz
+  - 4ab
+  - '1234'
+conditions:
+  - property:
+      propertyConditions:
+        - operator: in-array
+          property: avav
+          operand:
+            - '1'
+            - '2'
+    acrossTypesLogicGate: null
+    value:
+      - percentage: 33
+        option: zaz
+      - percentage: 33
+        option: 4ab
+      - percentage: 34
+        option: '1234'
+value: 4ab
