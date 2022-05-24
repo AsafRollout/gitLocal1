@@ -6,8 +6,7 @@ availableValues:
   - 4ab
   - '1234'
 conditions:
-  - acrossTypesLogicGate: 'or'
-    group:
+  - group:
       operator: 'nor'
       name:
         - group1
@@ -21,7 +20,7 @@ conditions:
             - '2'
         - operator: is-true
           property: bln
-      logicGate: 'and'
+      logicGate: 'or'
     value:
       - percentage: 33
         option: zaz
