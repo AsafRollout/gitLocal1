@@ -8,13 +8,7 @@ availableValues:
   - red
 platforms:
   - name: p2
-  - value: green
+  - value: blue
 conditions:
-  - dependency:
-      flag: specialNumber
-      value: '3.14'
-    value:
-      - percentage: 50
-        option: green
-      - percentage: 50
-        option: blue
+  - acrossTypesLogicGate: null
+    value: blue

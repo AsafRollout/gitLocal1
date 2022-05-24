@@ -16,6 +16,7 @@ conditions:
     dependency:
       flag: var
       value: red
+    acrossTypesLogicGate: null
     value:
       - percentage: 33
         option: C

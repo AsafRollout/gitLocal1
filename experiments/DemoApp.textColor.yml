@@ -11,14 +11,17 @@ platforms:
   - name: Ruby
   - name: Ruby2
     conditions:
-      - value: zzz
+      - acrossTypesLogicGate: null
+        value: zzz
     value: qqq
   - name: PHP
     conditions:
-      - value: zzz
+      - acrossTypesLogicGate: null
+        value: zzz
 conditions:
   - dependency:
       flag: DemoApp.colorsVariant
       value: green
+    acrossTypesLogicGate: null
     value: '41234'
 value: zzz
