@@ -1,6 +1,9 @@
 # This file was edited by Cloudbees Feature Management
 type: experiment
 flag: Flag1
+conditions:
+  property: 'bln'
+  operand: 'is-true'
 value:
   - percentage: 50
     option: true
