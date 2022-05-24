@@ -11,6 +11,7 @@ conditions:
         - 'group1'
         - 'tg12'
     property:
+      logicGate: 'or'
       propertyConditions:
         - operator: in-array
           property: avav
