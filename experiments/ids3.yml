@@ -8,10 +8,9 @@ availableValues:
 conditions:
   - group:
       name:
-        - 'group1'
-        - 'tg12'
+        - group1
+        - tg12
     property:
-      logicGate: 'or'
       propertyConditions:
         - operator: in-array
           property: avav
@@ -20,6 +19,8 @@ conditions:
             - '2'
         - operator: is-true
           property: bln
+      logicGate: or
+    acrossTypesLogicGate: null
     value:
       - percentage: 33
         option: zaz
