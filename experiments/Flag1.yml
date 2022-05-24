@@ -4,8 +4,8 @@ flag: Flag1
 conditions:
   - property:
     - propertyConditions
-        operator: is-true
-        property: bln
+      operator: is-true
+      property: bln
     value: false
 value:
   - percentage: 40
