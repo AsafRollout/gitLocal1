@@ -1,7 +1,15 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 enabled: false
 flag: st3
 availableValues:
   - q1
   - q2
+conditions:
+  - dependency:
+      flag: flaf1
+      value: 'false'
+    group:
+      name: rgh
+    value: q2
+value: q2

@@ -1,31 +1,39 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 flag: ids3
 availableValues:
-  - zaz
-  - 4ab
   - '1234'
+  - 4ab
+  - zaz
+  - qqq
+  - bbb
 conditions:
-  - group:
-      operator: 'nor'
-      name:
-        - group1
-        - tg12
+  - version:
+      operator: semver-eq
+      semver: '3'
+    group:
+      name: group1
+    value: qqq
+  - version:
+      operator: semver-gt
+      semver: '32345'
+    dependency:
+      flag: flaf1
+      value: 'false'
+    group:
+      operator: nor
+      name: group1
     property:
       propertyConditions:
-        - operator: in-array
-          property: avav
-          operand:
-            - '1'
-            - '2'
-        - operator: is-true
-          property: bln
-      logicGate: 'or'
-    value:
-      - percentage: 33
-        option: zaz
-      - percentage: 33
-        option: 4ab
-      - percentage: 34
-        option: '1234'
+        - operator: ne
+          property: '234'
+          operand: va
+        - operator: semver-gt
+          property: app_release
+          operand: '154'
+        - operator: ne
+          property: '234'
+          operand: '2'
+    acrossTypesLogicGate: or
+    value: 4ab
 value: '1234'

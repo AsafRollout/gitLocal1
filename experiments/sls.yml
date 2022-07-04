@@ -1,4 +1,4 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 description: qqq
 flag: sls
@@ -11,6 +11,11 @@ conditions:
   - version:
       operator: semver-eq
       semver: v1.1.1.1
+    property:
+      propertyConditions:
+        - operator: ne
+          property: '543'
+          operand: '312'
     value: false
   - version:
       operator: semver-eq
